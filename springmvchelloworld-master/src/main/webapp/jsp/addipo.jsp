@@ -39,30 +39,30 @@
             </tr>
             <tr>
             <td ><label for="company_code">Company Code</label></td>
-            <td><form:input type="text" name="company_code" id="company_code" path="companyCode" /></td>
+            <td><form:input type="text" name="company_code" id="company_code" path="companyCode" required/></td>
            </tr>
            <tr>
             <td ><labe for="stock_exchange">Stock_Exchange</labe></td>
-            <td><form:input type="text" name="stock_exchange" id="stock_exchange" path="stockExchange"/></td>
+            <td><form:input type="text" name="stock_exchange" id="stock_exchange" path="stockExchange" required/></td>
            </tr>
            <tr>
             <td ><labe for="price_share">Price Per Share</labe></td>
-            <td><form:input type="text" name="price_share" id="price_share" path="pricePerShare"/></td>
+            <td><form:input type="text" name="price_share" id="price_share" path="pricePerShare" required/></td>
            
           </tr>
           <tr>
             <td ><labe for="total_share">Total Shares</labe></td>
-            <td><form:input type="text" name="total_share" id="total_share" path="totalShares"/></td>
+            <td><form:input type="text" name="total_share" id="total_share" path="totalShares" required/></td>
            
           </tr>
           <tr>
             <td ><labe for="date">Date</labe></td>
-            <td><form:input type="date" name="date" id="date" path="openDateTime"/></td>
+            <td><form:input type="date" name="date" id="date" path="openDateTime" required/></td>
            
           </tr>
           <tr>
             <td ><labe for="remarks">Remarks</labe></td>
-            <td><form:input type="text" name="remarks" id="remarks" path="remarks"/></td>
+            <td><form:input type="text" name="remarks" id="remarks" path="remarks" required/></td>
            
           </tr>
          
