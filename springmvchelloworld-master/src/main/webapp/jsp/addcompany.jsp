@@ -35,19 +35,19 @@
             <tr>
              <td ><label for="company_name">Company Name</label></td>
             
-             <td ><form:input type="text" id="company_name" name="company_name" path="companyName"/></td>
+             <td ><form:input type="text" id="company_name" name="company_name" path="companyName" required/></td>
             </tr>
             <tr>
             <td ><label for="ceo">CEO & Board Of Directors</label></td>
-            <td><form:input type="text" name="ceo" id="ceo" path="ceoName" /></td>
+            <td><form:input type="text" name="ceo" id="ceo" path="ceoName" required/></td>
            </tr>
            <tr>
             <td ><labe for="turnover">Turn Over</labe></td>
-            <td><form:input type="text" name="turnover" id="turnover" path="turnOver"/></td>
+            <td><form:input type="text" name="turnover" id="turnover" path="turnOver" required/></td>
            </tr>
            <tr>
             <td ><labe for="brief">Brief Description</labe></td>
-            <td><form:input type="text" name="brief" id="brief" path="briefWriteUp"/></td>
+            <td><form:input type="text" name="brief" id="brief" path="briefWriteUp" required/></td>
            
           </tr>
          
