@@ -8,6 +8,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name="ipo_planned")
@@ -17,6 +18,7 @@ public class Ipo_planned {
 	@Id
 	private int id;
 	@Column(name="Company_code")
+	@NotEmpty
 	private int companyCode;
 	@Column(name="Stock_exchange")
 	private int stockExchange;
