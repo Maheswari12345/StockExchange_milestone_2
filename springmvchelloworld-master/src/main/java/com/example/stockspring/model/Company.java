@@ -3,6 +3,9 @@ package com.example.stockspring.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.NotNull;
+
 import java.math.BigDecimal;
 
 @Entity
@@ -17,9 +20,11 @@ public class Company {
 	public void setCompanyCode(int companyCode) {
 		this.companyCode = companyCode;
 	}
+	@Max(value=400,message="please enter valid name")
 	@Column(name="company_Name")
 	private String companyName;
 	
+	@NotNull
 	@Column(name="turnover")
 	private BigDecimal turnOver;
 	@Column(name="ceo")
