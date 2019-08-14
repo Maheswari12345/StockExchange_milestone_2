@@ -31,16 +31,16 @@
             <tr>
              <td ><label for="user_name">User Name</label></td>
             
-             <td ><form:input type="text" id="user_name" name="user_name" path="username"   size="50"/></td>
+             <td ><form:input type="text" id="user_name" name="user_name" path="username"   size="50" required/></td>
             </tr>
             <tr>
                     <td ><label for="user_id">ID</label></td>
                    
-                    <td ><form:input type="text" id="user_id" name="user_id" path="id" size="50"/></td>
+                    <td ><form:input type="text" id="user_id" name="user_id" path="id" size="50" required/></td>
                    </tr>
             <tr>
             <td ><label for="password">Password</label></td>
-            <td><form:input type="text" name="password" id="password" path="password" size="50"/></td>
+            <td><form:input type="text" name="password" id="password" path="password" size="50" required/></td>
            </tr>
            <tr>
             <td ><labe for="userType">User Type</labe></td>
@@ -54,7 +54,7 @@
           
           <tr>
                 <td ><labe for="email">Email</labe></td>
-                <td><form:input type="text" name="email" id="email" path="email" size="50"/></td>
+                <td><form:input type="text" name="email" id="email" path="email" size="50" required/></td>
                
               </tr>
         </table>
