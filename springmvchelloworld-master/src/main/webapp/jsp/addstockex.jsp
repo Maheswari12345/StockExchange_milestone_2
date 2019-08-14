@@ -33,7 +33,7 @@
             <tr>
              <td ><label for="user_name">StockExchange Id</label></td>
             
-             <td ><form:input type="text" id="stock_id" name="stockexchange_id" path="stockExchangeId"/></td>
+             <td ><form:input type="text" id="stock_id" name="stockexchange_id" path="stockExchangeId" required/></td>
             </tr>
             
            
@@ -49,17 +49,17 @@
            
             <tr>
             <td ><label for="brief">Brief Description</labe></td>
-            <td><form:input type="text" name="brief" id="brief" path="brief"/></td>
+            <td><form:input type="text" name="brief" id="brief" path="brief" required/></td>
            
           </tr>
            <tr>
                 <td ><labe for="address">Address</labe></td>
-                <td><form:input type="text" name="address" id="address" path="address"/></td>
+                <td><form:input type="text" name="address" id="address" path="address" required/></td>
                
               </tr>
               <tr>
                     <td ><labe for="remarks">Remarks</labe></td>
-                    <td><form:input type="text" name="remarks" id="remarks" path="remarks"/></td>
+                    <td><form:input type="text" name="remarks" id="remarks" path="remarks" required/></td>
                    
                   </tr>
 
