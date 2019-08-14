@@ -33,10 +33,16 @@
   modelAttribute="company">
         <table cellspacing="10px" width="60%">
             <tr>
+                <tr>
+             <td ><label for="company_id">Company Id</label></td>
+            
+             <td ><form:input type="text" id="company_id" name="company_id" path="companyCode" required/></td>
+            </tr>
              <td ><label for="company_name">Company Name</label></td>
             
              <td ><form:input type="text" id="company_name" name="company_name" path="companyName" required/></td>
             </tr>
+            
             <tr>
             <td ><label for="ceo">CEO & Board Of Directors</label></td>
             <td><form:input type="text" name="ceo" id="ceo" path="ceoName" required/></td>
