@@ -1,7 +1,10 @@
 package com.example.stockspring.model;
 
+import javax.validation.constraints.NotEmpty;
+
 public class User {
 
+	@NotEmpty
 	private int id;
 	private String username;
 	private String password;
