@@ -253,6 +253,7 @@ System.out.println(companyList);
 
 
 <tr>
+	
 <th>Company Code<th>
 <th>Company Name</th>
 <th>CEO Name</th>
